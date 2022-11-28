@@ -13,11 +13,11 @@ if (num > 5)
 }
 else
 {
-    if(num < 1) 
+    if (num < 1)
     {
         Console.WriteLine("Попробуй еще раз выбрать число от 1 до 7 (включительно)");
     }
-    else 
+    else
     {
         Console.WriteLine("Нет");
     }
