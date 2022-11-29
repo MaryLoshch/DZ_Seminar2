@@ -1,4 +1,4 @@
-﻿Console.WriteLine("Введите число от 0 до 1000: ");
+﻿Console.WriteLine("Введите число: ");
 int num = Convert.ToInt32(Console.ReadLine());
 int i = num % 10;
 if (i == 1 && num != 11) Console.WriteLine($" {num} програмист ");
